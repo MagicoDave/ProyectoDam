@@ -8,14 +8,14 @@ import javax.swing.ImageIcon;
 public class Pokemon {
     
     private String apodo;
-    private Especie especie;
+    private Especie nombre;
     private boolean[] estado; //Envenenado, Paralizado, Quemado, Congelado, Dormido
     private int nivel;
     private int[] statsCombate; //HP, Atk, Def, AtkSp, DefSp, Speed
 
-    public Pokemon(String apodo, Especie especie, int nivel){
+    public Pokemon(String apodo, Especie nombre, int nivel){
         this.apodo = apodo;
-        this.especie = especie;
+        this.nombre = nombre;
         this.nivel = nivel;
     }
 
