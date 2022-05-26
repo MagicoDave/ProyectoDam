@@ -1,9 +1,7 @@
 package proyectodam;
 
-import javax.swing.ImageIcon;
-
-
 // https://github.com/Jmgiacone/Pokemon
+// https://github.com/ewhalenkamp/Java-Pokemon-Battle-Simulator
 
 public class Pokemon {
     
@@ -11,7 +9,7 @@ public class Pokemon {
     private Especie nombre;
     private boolean[] estado; //Envenenado, Paralizado, Quemado, Congelado, Dormido
     private int nivel;
-    private int[] statsCombate; //HP, Atk, Def, AtkSp, DefSp, Speed
+    private int actualHP, actualAtk, actualSpAtk, actualDef, actualSpDef, actualSpeed;
 
     public Pokemon(String apodo, Especie nombre, int nivel){
         this.apodo = apodo;
